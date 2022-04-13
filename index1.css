@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color: rgba(0, 0, 0, 0.842);
+    padding: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.container{
+    margin: auto;
+    margin-bottom: 5px;
+    width: 70%;
+    height: 400px;
+    background-color: rgb(200, 226, 228);  
+
+}
+
+.h2{
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    justify-content:flex-end;
+    
+}
+
+.col img{
+    width: 400px;
+    margin: 5px;
+    border-radius: 0.85em;
+    padding-right: 300px;
+    position: absolute;
+    bottom:300px;
+}
+
+input{
+    width: 30%;
+    border-radius: 0.45em;
+    padding: 8px;
+    text-align: center;
+    margin-right: 550px;
+    height: 30px;
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255);
+}
+
+.col{
+    height: 100px;
+    padding: 20px;
+    width: 1000px;
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.row{
+    display: flex;
+    width: 1110px;
+    justify-content:flex-end;
+}
+
+.row-input{
+    padding: 16px;
+    text-align: center;
+}
+
+
+footer{
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin: 8px;
+    text-align: center;
+}
+
+body{
+	background: linear-gradient(90deg, #c5ebf4, #6dbde2);		
+}
+
+nav{
+    background-color:rgb(255, 255, 255);
+    color:rgba(0, 0, 0, 0.842);
+    padding: 1px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li > a{
+    text-decoration: none;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 8px;
+    color:rgb(0, 0, 0);
+    border-bottom: 2px rgba(93, 179, 93, 0.842);
+    font-size: large;
+}
+
+.active{
+    font-weight: bold;
+}
+
+nav li > a:hover{
+    background-color: rgb(182, 219, 224);
+    border-bottom: 2px rgb(182, 219, 224);
+}
+

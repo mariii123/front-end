@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color: rgba(0, 0, 0, 0.842);
+    padding: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.curso{
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.container{
+    margin: auto;
+    margin-bottom: 5px;
+    width: 40%;
+    height: 600px;
+    background-color: rgb(245, 255, 253);   
+    text-align: center;
+}
+
+button{
+    width: 30%;
+    border-radius: 0.45em;
+    padding: 8px;
+    background-color:rgb(232, 253, 247);
+    outline: none;
+    color:rgb(41, 40, 40);
+    margin-right: 655px;
+}
+
+
+input{
+    width: 70%;
+    border-radius: 0.70em;
+    padding: 10px;
+    text-align: center;
+    margin-right: 550px;
+    height: 20px;
+    border: 20px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.col{
+    height: 50px;
+    padding: 30px;
+    width: 1100px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.row{
+    height: 70px;
+    padding: 15px;
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+
+.row-input{
+    padding: 16px;
+    text-align: center;
+}
+
+body{
+	background: linear-gradient(90deg, #d9f7f1, #60a8a2);		
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin: 8px;
+    text-align: center;
+}
+
+nav{
+    background-color:rgb(254, 255, 255);
+    color:rgba(0, 0, 0, 0.842);
+    padding: 1px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li > a{
+    text-decoration: none;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 8px;
+    color:rgb(0, 0, 0);
+    border-bottom: 2px rgba(93, 179, 93, 0.842);
+    font-size: large;
+}
+
+.active{
+    font-weight: bold;
+}
+
+nav li > a:hover{
+    background-color: rgb(233, 194, 224);
+    border-bottom: 2px rgb(216, 182, 224);
+}
